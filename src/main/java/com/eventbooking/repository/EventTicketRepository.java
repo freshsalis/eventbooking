@@ -15,4 +15,6 @@ public interface EventTicketRepository extends JpaRepository<EventTicket, Intege
     List<Event> findBookedEventsByUserId(@Param("userId") int userId);
 
     Optional<EventTicket> findByEventIdAndUserId(int eventId, int id);
+
+    List<EventTicket> findByEventId(Integer id);
 }
