@@ -1,4 +1,4 @@
-# PROJECT README
+# README
 
 ## To run tests
 
