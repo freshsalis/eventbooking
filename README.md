@@ -1,7 +1,12 @@
 # README
 
-## To run tests
+## Install dependencies
 
+```bash
+    mvn install
+```
+
+## Run test
 ```bash
     mvn test
 ```
